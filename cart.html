@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ICT YOUR CART</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMS.CHECK - Your Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            
+        </div>
+        <div class="user">
+            <img src="user-icon.png" alt="User" class="user-icon">
+            <span class="user-name">Student</span>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="notification.html"><span>🛒</span> Your Cart</a></li>
+                <li><a href="notification.html"><span>💬</span> Messages</a></li>
+                <li><a href="youraccount.html"><span>👤</span> Account</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        
+        <!-- Top Bar -->
+        <div class="navbar">
+            <img src="https://imgur.com/L05Vbt3.png" alt="TAMS.CHECK Logo" class="logo">
+            <div class="center-logo">
+                <img src="https://imgur.com/qVSD2a5.png" alt="Centered Logo">
+            </div>
+            <div class="nav-links">
+                <a href="homepage.html">Home</a>
+                <a href="aboutus.html">About</a>
+                <a href="shop.html">Shop</a>
+                <a href="howtoorder.html">How to Order</a>
+            </div>
+        </div>
+
+        <!-- Cart Section -->
+        <section class="cart">
+            <h2>Your Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="product-info">
+                            <img src="https://imgur.com/8N0iY6w.png" " alt="SHS Girls Daily Blouse">
+                            <div>
+                             <strong>SHS Girls Daily Blouse</strong><br>
+                                <small>Size: S</small><br>
+                       
+                            </div>
+                        </td>
+                        <td>₱430.00</td>
+                        <td>
+                            <select class="quantity" onchange="updateTotal()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </td>
+                        <td class="total-price">₱430.00</td>
+                    </tr>
+                </tbody>
+            </table>
+           <a href="proceed checkout.html"><button class="checkout-btn">CHECKOUT</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

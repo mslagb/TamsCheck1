@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: ;
+    padding: 0;
+    background: linear-gradient(180deg,#ffe325, #00bf63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+.container {
+    width: 150%;
+  align-items: center;
+    margin: 45px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.logo { 
+    position: absolute; 
+    left: 20px; 
+    top: 5px;  /* Adjusted position */
+    width: 120px;  /* Smaller size */
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.profile-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#address-container {
+    margin-top: 10px;
+}
+
+.address-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.address-entry input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#save-btn {
+    display: block;
+    margin: 20px auto; /* Centers the button */
+    background-color: #000; /* Keep it black */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 200px;
+    margin-top: 40px;
+}
+
+#save-btn:hover {
+    background-color: #333; /* Darker black on hover */
+}
