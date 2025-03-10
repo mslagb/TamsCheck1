@@ -1,0 +1,79 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMS.CHECK - Your Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMS.CHECK - Your Cart</title>
+    <link rel="stylesheet" href="emptycart.css">
+</head>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="logo">
+            
+        </div>
+        <div class="user">
+            <img src="" alt="User" class="user-icon">
+            <span class="user-name">Student</span>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#"><span>🛒</span> Your Cart</a></li>
+              
+                <li><a href="notification.html"><span>💬</span> Messages</a></li>
+                <li><a href="your account.html"><span>👤</span> Account</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        
+        <!-- Top Bar -->
+        <div class="navbar">
+            <img src="https://imgur.com/L05Vbt3.png" alt="TAMS.CHECK Logo" class="logo">
+            <div class="center-logo">
+                <img src="https://imgur.com/qVSD2a5.png" alt="Centered Logo">
+            </div>
+            <div class="nav-links">
+                <a href="homepage.html">Home</a>
+                <a href="aboutus.html">About</a>
+                <a href="shop.html">Shop</a>
+                <a href="howtoorder.html">How to Order</a>
+            </div>
+        </div>
+      
+ <!-- Date & Time Selection -->
+        <div class="container">
+            <h2>When do you want your order?</h2>
+            <p>Showing next available dates</p>
+        <div class="date-options">
+            <div class="date" onclick="selectDate(this)">MARCH 11</div>
+            <div class="date" onclick="selectDate(this)">MARCH 12</div>
+            <div class="date" onclick="selectDate(this)">MARCH 13</div>
+            <div class="date" onclick="selectDate(this)">MARCH 14</div>
+            <div class="date" onclick="selectDate(this)">MARCH 15</div>
+        </div>
+          <p>Times shown in Asia/Manila time</p>
+        <div class="time-options">
+            <div class="time" onclick="selectTime(this)">8:00 AM</div>
+            <div class="time" onclick="selectTime(this)">10:00 AM</div>
+            <div class="time" onclick="selectTime(this)">1:00 PM</div>
+            <div class="time" onclick="selectTime(this)">3:00 PM</div>
+        </div>
+        
+        <!-- Checkout Button -->
+        <!-- Checkout Button -->
+            <button class="checkout-button" onclick="proceedToCheckout()">Proceed to Checkout</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
